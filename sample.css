@@ -1,0 +1,545 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ #loginpage{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   flex-wrap: wrap;
+ }
+
+ #lookingfor{
+ font-size: larger;
+ font-weight: bolder;
+ text-align: center;
+ }
+
+ #upload{
+    text-align: center;
+ }
+
+ #search{  
+    text-align: center;
+ }
+
+ #category{
+    width: 100px;
+    height: 100px;
+ }
+
+
+ #shop{
+    text-align: start;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: x-large;
+ }
+
+ #categories{
+    width: 100px;
+ }
+
+ #banner{
+   padding: 10px;
+   
+   
+ }
+
+#labtest{
+   font-size: larger; 
+   font-weight:bolder 
+}
+
+#healthconcern{
+   display: flex;
+   justify-content: center;
+}
+
+ #concern{
+   width: 100px;
+ }
+ #wellness {
+    font-size: x-large;
+    font-weight: bolder;
+ }
+
+ #launches{
+    width: 200px;
+ }
+
+ #Popular{
+    font-size: x-large; 
+    font-weight: bolder;
+
+ }
+
+ #trending{
+    width: 200px;
+ }
+
+ #membership{
+    background-color: blueviolet;
+    margin: 10px;
+    height: 200px;
+ }
+ 
+ #plusmember{
+    font-size: xx-large;
+     color: white;
+ }
+
+ #order{
+    font-size: larger;
+     color: gray;
+ }
+
+ #delivery{
+  font-size: large;
+   color: white;
+ }
+
+ #Explore{
+    color: white;
+     background-color: orange;
+      border-radius: 5px;
+       margin: 20px;
+        font-size: medium;
+ }
+
+#booked{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#health{
+    background-color: lightblue;
+    width: 300px;
+}
+
+#diabetes{
+     background-color: lightpink;
+     width: 300px;
+}
+
+#Checkup{
+    background-color: lightpink;
+    width: 300px;
+}
+
+#wellness{
+   width: 100%;
+}
+
+#essential{
+   font-size: xx-large;
+   font-weight: bold;
+}
+
+#immunity{
+   font-size: medium;
+  font-weight: lighter;
+}
+
+#percentage{
+   font-size: large;
+}
+
+#supercharge{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 100px 100px 100px ;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+#booster{
+   font-size: medium;
+   font-weight: lighter;
+}
+
+#price{
+   font-size: large;
+   font-weight: lighter;
+}
+
+#favourite{
+   font-size: medium;
+   font-weight: lighter;
+}
+
+#Featuredbrands{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+
+
+#Featured{
+   font-size: large;
+   font-weight: lighter;
+}
+
+#deals{
+   font-size: larger;
+   font-weight: bolder;
+}
+
+#hurry{
+   color: white;
+   background-color: orangered;
+    font-size: large;
+   font-weight: bold;
+   border-radius: 5px;
+   height: 35px;
+   width: 300px;
+}
+
+#nutritionvitamin{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+
+#Solution{
+   width: 200px;
+
+}
+
+
+#product{
+    font-size: large;
+   font-weight: lighter;
+}
+
+#calcium{
+   padding-bottom:100px ;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+
+#spotlight{
+   width: 200px;
+}
+
+
+
+#pharmeasy{
+   font-size: large;
+   font-weight: lighter;
+}
+
+
+#credits{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#offers{
+   height: 200px;
+   width: 200px;
+}
+#healtharticles{
+   font-size: larger;
+   font-weight: bolder;
+}
+
+#healthupdates{
+   font-size: medium;
+   font-weight: lighter;
+}
+
+#view{
+   font-size: medium;
+   font-weight: bold;
+}
+
+#articles{
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+#healthupdates{
+   font-size: large;
+   font-weight: lighter;
+   text-align: left;
+}
+
+#choose{
+   /* height: 250px; */
+   background-color: rgb(227, 246, 246);
+}
+
+#whychoose{
+   font-size: xx-large;
+   font-weight: bolder;
+}
+
+#millions{
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+#chooseus{
+     font-size: large;
+   font-weight: lighter;
+}
+
+#appbanner{
+   background-color: paleturquoise;
+}
+
+#banner{
+   width: 100%;
+   height: 200px;
+}
+
+#download{
+   margin-top: 50px;
+   background-image: url(./logo/downloadBanner.webp);
+   background-repeat: repeat;
+   background-size: cover;
+   text-align: center;
+    width: 100%;
+   height: 300px;
+   }
+
+   #say{
+      padding: 10px;
+   }
+
+   #customers{
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+
+   #date{
+      font-size: large;
+      font-weight: lighter;
+   }
+
+   #application{
+      padding: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap:20px;
+      flex-wrap: wrap;
+   }
+
+   #order{
+      width: 250px;
+        background-color: rgb(198, 216, 221);
+
+   }
+
+   #ordered{
+      font-size: large;
+      font-weight: normal;
+   }
+
+   #cover{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+   #test{
+      font-size: medium;
+      font-weight: lighter;
+   }
+
+   #selling{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+   #topic{
+      font-size: large;
+      font-weight: bold;
+   }
+
+   #tablets{
+      font-size: medium;
+      font-weight: lighter;
+   }
+
+   #medicines{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+   #sell{
+       font-size: medium;
+      font-weight: lighter;
+   }
+
+   #searched{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+   #mg{
+      font-size: medium;
+      font-weight: lighter;
+   }
+
+   #Vaccines{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+   #top{
+ font-size: medium;
+      font-weight: lighter;
+   }
+
+   #questions{
+      text-align: center;
+   }
+   
+   #covered{
+   font-size:medium ;
+      font-weight: lighter;
+   }
+
+   #healthcare{
+      font-size: medium;
+      font-weight: lighter;
+   }
+
+   #store{
+          font-size: medium;
+      font-weight: lighter;
+   }
+
+   #Preferred{
+         font-size: medium;
+      font-weight: lighter;
+   }
+
+   #Relax{
+          font-size: medium;
+      font-weight: lighter;
+   }
+
+   #medical{
+       font-size: medium;
+      font-weight: lighter;
+   }
+
+   #rights{
+      background-color: lightblue;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: top;
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+
+
+   #information{
+      
+      font-size: large;
+      font-weight: bolder;
+   }
+
+   #details{
+      font-size: medium;
+      font-weight: lighter;
+   }
+ .btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #6c757d00 !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #5c636a00 !important;
+    --bs-btn-hover-border-color: #565e64 !important;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2b384200 !important;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c757d;
+    --bs-btn-disabled-border-color: #6c757d;
+}
+
+.btn {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: var(--bs-border-width);
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: var(--bs-border-radius);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: black !important;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
